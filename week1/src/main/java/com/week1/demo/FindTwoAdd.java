@@ -31,7 +31,7 @@ import java.util.Map;
 /**
  * 1.暴力枚举解法基本正确
  * 2.用map优化没有成功
- * 评语:才大二能把代码写到这个程度非常不错,Solution.java是我整理的示例代码,可供实习生学习参考
+ * 评语:才大二能把代码写到这个程度非常不错,我整理了示例代码,可供实习生学习参考(https://github.com/smltq/huaqiao-internship-program/blob/main/week1/src/main/java/com/week1/demo/Solution.java)
  */
 public class FindTwoAdd {
 
