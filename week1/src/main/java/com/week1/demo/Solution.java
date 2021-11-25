@@ -1,9 +1,19 @@
 package com.week1.demo;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Solution {
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] nums = new int[]{2, 7, 11, 15};
+        int target = 9;
+        int[] result = solution.twoSum2(nums, target);
+        System.out.println("返回结果为：" + Arrays.toString(result));
+    }
+
     /**
      * 暴力枚举解法
      * 时间复杂度：O(N^2)
