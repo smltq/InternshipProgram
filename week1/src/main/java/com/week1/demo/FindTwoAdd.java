@@ -43,7 +43,8 @@ public class FindTwoAdd {
     static int[] temparry=new int[2];
 
     /**
-     * 成员变量命名,尽量准确,方便他人阅读,比如这里的m,如果命名成map或hashmap,阅读者一看就知道这是个map结构的就会好很多
+     * 建议
+     * 1.成员变量命名,尽量准确,方便他人阅读,比如这里的m,如果命名成map或hashmap,阅读者一看就知道这是个map结构的就会好很多
      */
     private static Map m= new HashMap<Integer,int[]>();
 
